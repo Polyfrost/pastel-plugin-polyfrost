@@ -1,0 +1,3 @@
+app:
+  title: pastel example app
+  baseUrl: http://localhost:3000

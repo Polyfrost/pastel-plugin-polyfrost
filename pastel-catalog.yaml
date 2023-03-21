@@ -1,0 +1,24 @@
+apiVersion: dyn.gay/v1alpha1
+kind: Component
+metadata:
+  name: pastel-plugin-polyfrost
+  title: Pastel Plugin Polyfrost
+  description: |
+    A plugin that adds Polyfrost and Gradle integration to Pastel.
+  annotations:
+    github.com/project-slug: polyfrost/pastel-plugin-polyfrost
+    github.com/project-readme-path: README.md
+    dyn.gay/view-url: https://github.com/polyfrost/pastel-plugin-polyfrost/blob/main/pastel-catalog.yaml
+    dyn.gay/edit-url: https://github.com/polyfrost/pastel-plugin-polyfrost/edit/main/pastel-catalog.yaml
+    dyn.gay/source-location: url:https://github.com/polyfrost/pastel-plugin-polyfrost/tree/main
+  tags:
+    - plugin
+    - oss
+    - backend
+  links:
+    - url: https://npmjs.com/package/@flowr/plugin-polyfrost
+      title: NPM
+spec:
+  type: library
+  owner: group:open-source
+  lifecycle: production
